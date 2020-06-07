@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ReactMVC.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -10,6 +11,8 @@ namespace ReactMVC.Controllers
     {
         public ActionResult Index()
         {
+         //   AppDbContext c = new AppDbContext();
+         //   c.Database.CreateIfNotExists();
             return View();
         }
 
